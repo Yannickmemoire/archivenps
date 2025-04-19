@@ -3,29 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visualisation de mon PDF</title>
+    <title>Visualisation de mon PDF et tableau Excel</title>
     <style>
         body {
             margin: 0;
-            padding: 0;
+            padding: 20px;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            justify-content: flex-start;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
         }
         iframe {
             width: 80%;
-            height: 90%;
+            height: 80vh;
             border: none;
             box-shadow: 0 0 20px rgba(0,0,0,0.2);
             border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        p {
+            background: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
     <iframe src="Complete-Ellis-Island-OralHistoryProject-1.pdf"></iframe>
+
+    <p>📊 Télécharger le <a href="https://github.com/Yannickmemoire/archivenps/raw/main/Tableau%20Lefebvre%20Yannick.xlsx" target="_blank">tableau Excel</a>.</p>
 
 </body>
 </html>
